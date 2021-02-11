@@ -7,8 +7,8 @@ const Board = ({board, handleSquareClick}) => {
     return (
     <Square 
     value={board[position]} 
-    onClick={() => handleSquareClick(position)}> 
-    </Square>
+    onClick={() => handleSquareClick(position)} 
+    />
     );
   };
   
